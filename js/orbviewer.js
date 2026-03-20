@@ -177,7 +177,7 @@ function init() {
     new THREE.MeshBasicMaterial({ color: 0xff0000 }),
   );
   scene.add(sphere);
-
+  toggleTour();
   animate();
 }
 
